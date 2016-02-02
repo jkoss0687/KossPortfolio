@@ -9,7 +9,7 @@ body{
 
 header{
 	background-image:url(images/chalkboard.jpg);
-	margin:0 auto;
+	margin:0;
 	background-color: black;
 	height: 100px;
 	border:1px solid white;
@@ -45,19 +45,23 @@ nav ul li a{
 	height: 200px;
 }
 
-#title{
-	color: white;
-	float: left;
-	border: 1px solid blue;
-	margin-left: 20px;
-	margin-top: 10px;
+#title {
+    vertical-align: top;
+    margin-top: 3em;
+    margin-left: 3em;
+    margin-right: 2em;
+    color: white;
+    width: 40%;
+    border: 1px solid blue;
+    display: inline-block;
 }
-#banner img{
-	height:150px;
-	float: right;
-	border: 2px solid green;
-	margin-top: 20px;
-	margin-right: 10px;
+
+#banner img {
+    height: 170px;
+    width: 350px;
+    display: inline-block;
+    margin: 2%;
+    /* border: 2px solid green; */
 }
 
 #about{
@@ -65,4 +69,65 @@ nav ul li a{
 	margin: 2% auto;
 	padding-top: 5px;
 	border: 2px solid black;
+}
+
+.project {
+	margin: 1% auto;
+	width: 300px;
+	border: 1px solid #0099cc;
+	display: inline-block;
+
+}
+
+#grid{
+	width: 70%;
+	margin:5% auto;
+}
+
+.heading{
+	text-align: center;
+	font-size: 24px;
+
+}
+
+
+.project p{
+/*	display: inline-block;*/
+	width: 250px;
+	margin: 1% ;
+
+
+}
+
+.project img {
+	width:100px;
+	height:100px;
+	margin: 1%;
+	float: left;
+
+}
+
+#intro{
+	width: 350px;
+	margin: 0 auto;
+/*	border: 2px solid black;*/
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 1em;
+
+}
+
+#moonpic{
+	width: 400px;
+	margin: 1% auto;
+	height: 450px;
+	display: inline-block;
+}
+
+.intro{
+	width: 60%;
+	margin: 2% auto;
+	height: 450px;
+/*	border: 2px solid black;*/
+
 }
